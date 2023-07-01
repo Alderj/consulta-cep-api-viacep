@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Pesquisa por cep</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Pesquisando endereço por CEP</h2>
+        <form action="">
+            <label for="cep">Cep:</label>
+            <input type="text" id="cep" placeholder="Digite o cep aqui">
+
+            <label for="logradouro">Endereço:</label>
+            <input type="text" id="logradouro">
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro">
+
+            <label for="localidade">Cidade:</label>
+            <input type="text" id="localidade">
+
+            <label for="uf">Estado:</label>
+            <input type="text" id="uf">
+        </form>
+
+        <button id="pesquisar" onclick="consultaCep(event)">Pesquisar:</button>
+    </div>
+
+    
+
+</body>
+
+</html>

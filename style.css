@@ -11,7 +11,7 @@ body {
 }
 
 
-@media (max-width: 320px) {
+@media (min-width: 312px) and (max-width:400px) {
 
     .container {
         border: 1px solid #fff;
@@ -57,7 +57,7 @@ body {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
     .container {
         border: 1px solid #fff;
         background-color: #c1c1c1;
